@@ -53,17 +53,8 @@ export interface BlogPostProps {
   posts: BlogPost[];
 }
 
-interface ProjectHome {
-  title: string;
-  imageLight: string;
-  blurHash: string;
-  site: string;
-  description: string;
-  techStack: string[];
-}
-
 export interface ProjectProps {
-  projects: ProjectHome[];
+  projects: Project[];
 }
 
 interface Skill {
