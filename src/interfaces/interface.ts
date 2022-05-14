@@ -53,7 +53,7 @@ export interface BlogPostProps {
   posts: BlogPost[];
 }
 
-interface Project {
+interface ProjectHome {
   title: string;
   imageLight: string;
   blurHash: string;
@@ -63,7 +63,7 @@ interface Project {
 }
 
 export interface ProjectProps {
-  projects: Project[];
+  projects: ProjectHome[];
 }
 
 interface Skill {
