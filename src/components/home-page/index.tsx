@@ -1,21 +1,9 @@
 import { useEffect, useState } from 'react';
-import {
-  Flex,
-  Avatar,
-  Box,
-  Text,
-  Badge,
-  Stack,
-  UnorderedList,
-  ListItem,
-  useColorModeValue,
-  Button
-} from '@chakra-ui/react';
+import { Flex, Avatar, Box } from '@chakra-ui/react';
 import { MotionBox, MotionFlex } from '../ui/motion';
 import Header from '../layout/header';
 import Typed from 'react-typed';
 import Projects from './projects';
-import NextLink from 'next/link';
 import { ProjectProps } from 'interfaces/interface';
 
 const ANIMATION_DURATION = 0.5;

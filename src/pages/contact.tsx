@@ -1,6 +1,4 @@
-import { useState } from 'react';
-
-import { Stack, Button, ButtonGroup, Flex, Heading, Box } from '@chakra-ui/react';
+import { Button, Flex, Box } from '@chakra-ui/react';
 import Header from '../components/layout/header';
 
 import { AiOutlineMail } from 'react-icons/ai';

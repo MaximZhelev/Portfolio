@@ -3,18 +3,11 @@ import {
   Flex,
   Avatar,
   HStack,
-  Button,
-  Text,
   Link,
   IconButton,
   useDisclosure,
   useColorModeValue,
-  Menu,
-  MenuButton,
-  MenuList,
-  MenuItem,
-  Stack,
-  Icon
+  Stack
 } from '@chakra-ui/react';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { AiOutlineClose } from 'react-icons/ai';
@@ -65,11 +58,6 @@ const NavLink = (props) => {
 
 export default function TopNav() {
   const { isOpen, onOpen, onClose } = useDisclosure();
-
-  const menuProps = {
-    bg: useColorModeValue('gray.200', 'gray.900'),
-    color: useColorModeValue('blue.500', 'blue.200')
-  };
 
   return (
     <>

@@ -1,16 +1,4 @@
-import {
-  Flex,
-  Avatar,
-  Box,
-  Text,
-  Badge,
-  Stack,
-  UnorderedList,
-  ListItem,
-  useColorModeValue,
-  Button,
-  Img
-} from '@chakra-ui/react';
+import { Flex, Box, Text, Button, Img } from '@chakra-ui/react';
 import { MotionBox, MotionFlex } from '../components/ui/motion';
 import Header from '../components/layout/header';
 import { IoDocumentOutline } from 'react-icons/io5';

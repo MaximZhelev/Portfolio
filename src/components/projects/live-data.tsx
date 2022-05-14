@@ -1,9 +1,8 @@
 import * as React from 'react';
 import StackGrid from 'react-stack-grid';
-import { SimpleGrid, Box, useMediaQuery } from '@chakra-ui/react';
+import { Box, useMediaQuery } from '@chakra-ui/react';
 import { PageSlideFade } from '../ui/page-transitions';
 import RepositoryCard from './live-data-card';
-import CardSkeleton from './card-skeleton';
 
 const LiveData = ({ repositories }) => {
   const [isLargerThan720] = useMediaQuery('(min-width: 720px)');

@@ -25,14 +25,10 @@ interface RepositoryCardProps {
 }
 
 const RepositoryCard = ({
-  key,
   title,
   description,
-  cover,
-  blurHash,
   technologies,
   url,
-  live,
   stars,
   fork
 }: RepositoryCardProps) => {
