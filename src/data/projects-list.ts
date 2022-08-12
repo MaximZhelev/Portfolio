@@ -1,10 +1,10 @@
 export const projectsList = [
   {
     id: 1,
-    title: 'Next.js Ecommerce',
-    link: 'https://e-nextjs.vercel.app/',
-    desc: 'A starter project for building performant Ecommerce applications with Next.js',
-    technologies: ['nextjs', 'react'],
+    title: 'Solidity Starter',
+    link: 'https://github.com/MaximZhelev/solidity-starter',
+    desc: 'Solidity smart contracts development template',
+    technologies: ['solidity', 'typescript', 'hardhat'],
     blurHash: 'L4ADc400P*Zi4Tu1y;Qo00pH#YXl'
   },
   {

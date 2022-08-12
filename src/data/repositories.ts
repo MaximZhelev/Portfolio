@@ -1,9 +1,9 @@
 export const repositories = [
   {
-    title: 'Next.js Ecommerce',
-    description: 'A starter project for building performant Ecommerce applications with Next.js',
-    technologies: ['nextjs', 'react'],
-    url: 'https://e-nextjs.vercel.app/',
+    title: 'Solidity Starter',
+    description: 'Solidity smart contracts development template',
+    technologies: ['solidity', 'typescript', 'hardhat'],
+    url: 'https://github.com/MaximZhelev/solidity-starter',
     blurHash: 'LSN1AcH?~Wtl00={M{NG0eIoj]xa'
   },
   {
