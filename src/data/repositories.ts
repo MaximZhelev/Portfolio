@@ -1,5 +1,12 @@
 export const repositories = [
   {
+    title: 'Full stack DApp',
+    description: 'A simple structure for a DApp built with Ethers, Hardhat and Next.js',
+    technologies: ['nextjs', 'solidity', 'typescript', 'hardhat'],
+    url: 'https://github.com/MaximZhelev/full-stack-dapp',
+    blurHash: 'LYMaO=j[?bfj~qa{M{j[%MfQM{j['
+  },
+  {
     title: 'Solidity Starter',
     description: 'Solidity smart contracts development template',
     technologies: ['solidity', 'typescript', 'hardhat'],
@@ -24,18 +31,18 @@ export const repositories = [
     blurHash: 'LMOWg4wIS$WBH?sAkCR*?^bcnNoy'
   },
   {
-    title: 'NFT Marketplace',
-    description: 'A full stack digital marketplace running on Ethereum with Polygon & Next.js',
-    technologies: ['nextjs', 'javascript', 'ethereum'],
-    url: 'https://github.com/MaximZhelev/NFT-Marketplace.git',
-    blurHash: 'L4S~x5xb~q$*~WR6MykCx^Vt4TtP'
-  },
-  {
     title: 'RN Social',
     description: 'Social app built with React Native and Firebase.',
     technologies: ['react native', 'firebase'],
     url: 'https://github.com/MaximZhelev/RN-Social.git',
     blurHash: 'LLPGmg?wRPS~D%D%ozxa00?G-;R%'
+  },
+  {
+    title: 'NFT Marketplace',
+    description: 'A full stack digital marketplace running on Ethereum with Polygon & Next.js',
+    technologies: ['nextjs', 'javascript', 'ethereum'],
+    url: 'https://github.com/MaximZhelev/NFT-Marketplace.git',
+    blurHash: 'L4S~x5xb~q$*~WR6MykCx^Vt4TtP'
   },
   {
     title: 'Crypto tracker',

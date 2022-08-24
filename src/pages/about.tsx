@@ -63,11 +63,7 @@ const About = () => {
           <Header>About</Header>
           <Box as="span" textAlign="left">
             <Text>
-              Hello! My name is Maxim I have spent the last three years developing custom software
-              solutions for various businesses. I enjoy the challenge of creating complex
-              applications and experiences that are interactive and accessible. I strive to learn
-              and improve my skills on the latest web technologies, and challenge myself every day
-              to become a more knowledgeable and effective developer.
+              Hello! My name is Maxim, I am Frontend developer with 3+ years of experience working in small and large teams to develop interactive, user-friendly, and feature-rich web applications. A self-motivated and lifelong learner familiar with modern web development and web3 technologies (blockchain, crypto, DeFi).
             </Text>
 
             <Box as="h2" fontSize="2xl" fontWeight="400" mt={5} textAlign="left">
