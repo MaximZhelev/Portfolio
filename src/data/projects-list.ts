@@ -1,14 +1,22 @@
 export const projectsList = [
   {
     id: 1,
+    title: 'Full stack DApp',
+    link: 'https://github.com/MaximZhelev/full-stack-dapp',
+    desc: 'A simple structure for a DApp built with Ethers, Hardhat and Next.js',
+    technologies: ['nextjs', 'solidity', 'typescript', 'hardhat'],
+    blurHash: 'L09sWSxdH;s?%6axWAfk00V?%bsg'
+  },
+  {
+    id: 2,
     title: 'Solidity Starter',
     link: 'https://github.com/MaximZhelev/solidity-starter',
     desc: 'Solidity smart contracts development template',
     technologies: ['solidity', 'typescript', 'hardhat'],
-    blurHash: 'L4ADc400P*Zi4Tu1y;Qo00pH#YXl'
+    blurHash: 'L4ADc400P*Zi4Tu1y;Qo00pH#YX1'
   },
   {
-    id: 2,
+    id: 3,
     title: 'RN Social',
     blurHash: 'L1O^uE0679I00AGT?.H{00y7p2tK',
     link: 'https://github.com/MaximZhelev/RN-Social.git',
@@ -17,7 +25,7 @@ export const projectsList = [
   },
 
   {
-    id: 3,
+    id: 4,
     title: 'Crown Clothing',
     blurHash: 'L2M5%%0000EN00I:-oIp00kC?^sl',
     link: 'https://github.com/MaximZhelev/Clothing-ecommerce.git',
@@ -26,7 +34,7 @@ export const projectsList = [
   },
 
   {
-    id: 4,
+    id: 5,
     title: 'Chatter',
     blurHash: 'L09sWSxdH;s?%6axWAfk00V?%jax',
     link: 'https://github.com/MaximZhelev/Chat.git',
@@ -34,7 +42,7 @@ export const projectsList = [
     technologies: ['typescript', 'react', 'nodejs']
   },
   {
-    id: 5,
+    id: 6,
     title: 'NFT Market',
     link: 'https://github.com/MaximZhelev/NFT-Marketplace.git',
     blurHash: 'L0Aer?tjH[tPyAayj[j[00ay%xkB',
