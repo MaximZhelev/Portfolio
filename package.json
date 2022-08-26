@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "postbuild": "next-sitemap"
+    "postbuild": "next-sitemap",
+    "prettier": "prettier --config .prettierrc --write \"**/*.{js,json,md,ts,tsx}\""
   },
   "dependencies": {
     "@chakra-ui/react": "^1.8.8",
@@ -22,7 +23,6 @@
     "react": "^17.0.2",
     "react-blurhash": "^0.1.3",
     "react-dom": "^17.0.2",
-    "react-html-parser": "^2.0.2",
     "react-icons": "^4.3.1",
     "react-palette": "^1.0.2",
     "react-progressive-image": "^0.6.0",

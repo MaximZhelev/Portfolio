@@ -1,26 +1,17 @@
-import {
-    useColorMode,
-    useColorModeValue,
-    IconButton,
-    Tooltip
-  } from "@chakra-ui/react";
-  import { FaMoon, FaSun } from "react-icons/fa";
-
+import { useColorMode, useColorModeValue, IconButton, Tooltip } from '@chakra-ui/react';
+import { FaMoon, FaSun } from 'react-icons/fa';
 
 export const ColorModeSwitcher = (props) => {
-    const { toggleColorMode } = useColorMode();
-    const text = useColorModeValue("dark", "light");
-    const SwitchIcon = useColorModeValue(FaMoon, FaSun);
+  const { toggleColorMode } = useColorMode();
+  const text = useColorModeValue('dark', 'light');
+  const SwitchIcon = useColorModeValue(FaMoon, FaSun);
 
   const handleClick = () => {
     toggleColorMode();
   };
 
   return (
-    <Tooltip
-      label={text === "dark" ? "Dark mode" : "Light mode"}
-      aria-label="A tooltip"
-    >
+    <Tooltip label={text === 'dark' ? 'Dark mode' : 'Light mode'} aria-label="A tooltip">
       <IconButton
         size="md"
         fontSize="md"
@@ -31,7 +22,7 @@ export const ColorModeSwitcher = (props) => {
         icon={<SwitchIcon />}
         aria-label={`Switch to ${text} mode`}
         _hover={{
-          bg: useColorModeValue("gray.200", "gray.900")
+          bg: useColorModeValue('gray.200', 'gray.900')
         }}
         {...props}
       />
