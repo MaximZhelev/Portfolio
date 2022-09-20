@@ -7,15 +7,6 @@ export const repositories = [
     blurHash: 'LYMaO=j[?bfj~qa{M{j[%MfQM{j['
   },
   {
-    title: 'Crown Clothing',
-    description:
-      'Fully functional clothing ecommerce website with firebase auth(Google,Email/Pass) and stripe payments integration.',
-    technologies: ['react', 'javascript'],
-    url: 'https://github.com/MaximZhelev/Clothing-ecommerce.git',
-    live: 'https://crown-clothing-ecommerce-site.herokuapp.com/',
-    blurHash: 'L25#he^nryxc^-w$V{V_56bqx[M{'
-  },
-  {
     title: 'Solidity Starter',
     description: 'Solidity smart contracts development template',
     technologies: ['solidity', 'typescript', 'hardhat'],
@@ -28,6 +19,15 @@ export const repositories = [
     technologies: ['solidity', 'typescript', 'hardhat'],
     url: 'https://github.com/MaximZhelev/proxy-openzeppelin',
     blurHash: 'L15#hiax00og^Uf65Nj]oPfkWRf6'
+  },
+  {
+    title: 'Crown Clothing',
+    description:
+      'Fully functional clothing ecommerce website with firebase auth(Google,Email/Pass) and stripe payments integration.',
+    technologies: ['react', 'javascript'],
+    url: 'https://github.com/MaximZhelev/Clothing-ecommerce.git',
+    live: 'https://crown-clothing-ecommerce-site.herokuapp.com/',
+    blurHash: 'L25#he^nryxc^-w$V{V_56bqx[M{'
   },
   {
     title: 'Chatter',

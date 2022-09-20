@@ -1,5 +1,5 @@
 import * as React from 'react';
-import StackGrid from 'react-stack-grid';
+// import StackGrid from 'react-stack-grid';
 import { Box, useMediaQuery } from '@chakra-ui/react';
 import { PageSlideFade } from '../ui/page-transitions';
 import RepositoryCard from './live-data-card';
@@ -22,21 +22,19 @@ const LiveData = ({ repositories }) => {
   return (
     <PageSlideFade>
       <Box mt={4}>
-        <StackGrid columnWidth={!isLargerThan982 && !isLargerThan720 ? '100%' : columnWidth}>
-          {repositories.map((repo, index) => (
-            <RepositoryCard
-              key={index}
-              title={repo.title}
-              description={repo.description}
-              blurHash={repo.blurHash}
-              technologies={repo.technologies}
-              url={repo.url}
-              live={repo.live}
-              stars={repo.stars}
-              fork={repo.fork}
-            />
-          ))}
-        </StackGrid>
+        {repositories.map((repo, index) => (
+          <RepositoryCard
+            key={index}
+            title={repo.title}
+            description={repo.description}
+            blurHash={repo.blurHash}
+            technologies={repo.technologies}
+            url={repo.url}
+            live={repo.live}
+            stars={repo.stars}
+            fork={repo.fork}
+          />
+        ))}
       </Box>
     </PageSlideFade>
   );
