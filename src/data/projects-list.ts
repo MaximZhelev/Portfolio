@@ -4,7 +4,7 @@ export const projectsList = [
     title: 'Full stack DApp',
     link: 'https://github.com/MaximZhelev/full-stack-dapp',
     desc: 'A simple structure for a DApp built with Ethers, Hardhat and Next.js',
-    technologies: ['nextjs', 'solidity', 'typescript', 'hardhat'],
+    technologies: ['nextjs', 'solidity', 'typescript'],
     blurHash: 'L09sWSxdH;s?%6axWAfk00V?%bsg'
   },
   {
