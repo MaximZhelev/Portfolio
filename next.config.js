@@ -3,6 +3,9 @@ const nextConfig = {
   reactStrictMode: true,
   typescript: {
     ignoreBuildErrors: true
+  },
+  env: {
+    WEBHOOK_URL: process.env.WEBHOOK_URL
   }
 };
 
