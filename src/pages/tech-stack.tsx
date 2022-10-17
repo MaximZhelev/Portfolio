@@ -32,19 +32,18 @@ const TechStack = ({ skills }) => {
   }, []);
 
   const filterSkills = (tab) => {
-    console.log(skills.filter((skill) => skill.type === tab));
     if (tab.length) setSkillsList(skills.filter((skill) => skill.type === tab));
     else setSkillsList(skills);
   };
 
   return (
-    <PageLayout title="Tools" keywords="nextjs, react, javascript, typescript">
+    <PageLayout title="Tech Stack" keywords="nextjs, react, javascript, typescript">
       <PageSlideFade>
         <VStack spacing={8}>
           <Section>
             <VStack>
-              <Header mt={0} mb={1}>
-                Tools
+              <Header mt={0} mb={1} fontSize={24}>
+                Tech Stack
               </Header>
               <Text
                 fontSize={'xl'}

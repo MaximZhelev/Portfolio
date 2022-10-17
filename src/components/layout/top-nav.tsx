@@ -18,14 +18,14 @@ import NextLink from 'next/link';
 const webLinks = [
   { name: 'About', path: '/about' },
   { name: 'Projects', path: '/projects' },
-  { name: 'Tools', path: '/tools' },
+  { name: 'Tech Stack', path: '/tech-stack' },
   { name: 'Contact', path: '/contact' }
 ];
 
 const mobileLinks = [
   { name: 'About', path: '/about' },
   { name: 'Projects', path: '/projects' },
-  { name: 'Tools', path: '/tools' },
+  { name: 'Tech Stack', path: '/tech-stack' },
   { name: 'Contact', path: '/contact' }
 ];
 

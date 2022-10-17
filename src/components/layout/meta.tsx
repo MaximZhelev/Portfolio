@@ -7,6 +7,7 @@ const Meta = ({ title, keywords, description }) => {
       <meta charSet="utf-8" />
       <meta name="keywords" content={keywords} />
       <meta name="description" content={description} />
+      <meta name="title" content="Maxim Zhelev | Frontend Developer" />
       <title>{title}</title>
     </Head>
   );
