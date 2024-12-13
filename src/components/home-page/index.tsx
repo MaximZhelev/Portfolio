@@ -41,10 +41,12 @@ const Home = ({ projects }: ProjectProps) => {
           mb={[16, 16, 'auto']}
         >
           <Avatar
-            size={'2x1'}
+            // size={'2xl'}
             //showBorder={true}
             src={'/me_vector.png'}
             background={'none'}
+            width={'250px'}
+            height={'full'}
             //border={'0.1px solid black'}
           />
         </MotionBox>
